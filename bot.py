@@ -12,7 +12,6 @@ from aiogram.types import Message, FSInputFile
 from yt_dlp import YoutubeDL
 
 API_TOKEN = os.getenv("7353528532:AAHFKC7JcAujOSdHJ3BOk1NJ9nRwLU5-PB8")
-
 bot = Bot(token=API_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
